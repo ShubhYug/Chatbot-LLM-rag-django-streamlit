@@ -63,3 +63,9 @@ streamlit run streamlit_app.py
 Local URL: http://localhost:8501
 Network URL: http://<your-local-ip>:8501
 ```
+
+## Run both backend and streamlit UI 
+```
+ chmod +x run_all.sh
+./run_all.sh
+```
