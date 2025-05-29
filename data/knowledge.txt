@@ -1,0 +1,88 @@
+Langchain is a framework designed to simplify the development of applications that use LLMs with external data.
+
+GPT-Neo and GPT-J are open-source LLMs developed by EleutherAI.
+
+FAISS is a vector database designed for efficient similarity search and clustering of dense vectors.
+
+Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. It is widely used in web development, data science, automation, and more.
+
+Flask is a lightweight and flexible Python web framework. It's often called a "micro-framework" because it provides the essential tools for web development without unnecessary complexity. Flask is used to build web applications, APIs, and other web-based projects.
+
+Langchain is a powerful framework designed to simplify the development of applications that use large language models (LLMs) in combination with external data sources. It provides components for chaining prompts, integrating tools like APIs and vector stores, and managing memory for stateful applications such as chatbots.
+
+GPT-Neo and GPT-J are open-source transformer-based language models developed by EleutherAI. GPT-J is a 6B parameter model, and GPT-Neo includes 1.3B and 2.7B versions. These models are capable of generating high-quality text, performing summarization, translation, and question-answering tasks.
+
+FAISS (Facebook AI Similarity Search) is a library developed by Facebook AI for efficient similarity search and clustering of high-dimensional dense vectors. It supports fast nearest-neighbor searches and is commonly used in semantic search and recommendation systems.
+
+Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is widely used in web development, data science, artificial intelligence, automation, and more.
+
+Flask is a lightweight and flexible Python web framework. It's often called a "micro-framework" because it provides the essential tools for web development without unnecessary complexity. Flask is ideal for building simple web apps and RESTful APIs.
+
+Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. It includes an ORM, built-in admin interface, authentication, and routing. Django is suitable for large-scale applications with complex business logic.
+
+FastAPI is a modern, high-performance Python web framework for building APIs using standard type hints. It offers automatic documentation generation with Swagger and ReDoc, fast request handling, dependency injection, and strong data validation using Pydantic.
+
+LangChain is an open-source framework that simplifies the process of building applications with LLMs. It supports prompt templates, chains, agents, memory management, and integration with external tools like vector stores, APIs, and document loaders.
+
+Retrieval-Augmented Generation (RAG) is a technique that enhances LLM outputs by combining information retrieval and text generation. It retrieves relevant documents based on a query and passes them as context to the LLM, allowing more accurate and factual answers.
+
+GPT-Neo is a generative model trained on large-scale datasets to understand and produce human-like text. It can be fine-tuned or used out of the box for NLP tasks such as classification, generation, and summarization.
+
+Streamlit is a Python library for building interactive and shareable web apps for data science and machine learning. It lets users build dashboards and prototypes with minimal effort using pure Python scripts.
+
+Vector stores like FAISS and Chroma are used to store and query vector embeddings generated from texts, images, or audio. They allow fast similarity search, which is essential for semantic retrieval in RAG pipelines and search engines.
+
+LangChain's memory module allows chatbots and agents to remember past interactions, user preferences, or history over a conversation session. This leads to more context-aware and human-like experiences.
+
+The combination of Django REST Framework DRF and LangChain is powerful for building structured APIs that integrate with language model workflows. This allows complex AI applications to expose endpoints for interaction and inference.
+
+BLOOM is a multilingual open-source language model developed by the BigScience project. It supports dozens of languages and is trained to generate text in a wide range of styles. BLOOM is a free alternative to models like GPT-3 and is designed with transparency and fairness in mind.
+
+Chroma is a modern vector database optimized for storing and searching dense embeddings in machine learning applications. It is used in RAG systems for fast and scalable document retrieval.
+
+The Django ORM Object-Relational Mapper allows developers to interact with databases using Python code instead of raw SQL. It supports migrations, relationships, and powerful query capabilities, making database operations easier and safer.
+
+Uvicorn is a lightning-fast ASGI server implementation using `uvloop` and `httptools`, used to serve FastAPI and other ASGI applications in production.
+
+Gunicorn is a WSGI server for Python web applications. While Uvicorn handles async ASGI apps, Gunicorn is often used with synchronous frameworks like Django or Flask for scalable deployment.
+
+Jinja2 is a templating engine for Python, often used with Flask and FastAPI for generating HTML content. It supports template inheritance, loops, conditions, and custom filters.
+
+HTMX is a JavaScript library that allows developers to build dynamic web applications with server-side logic. It can make HTML more interactive without writing a single line of JavaScript by using `hx-*` attributes.
+
+JWT JSON Web Tokens is a standard for securely transmitting information as a JSON object. It is commonly used in web applications for stateless authentication and session management.
+
+Redis is an in-memory key-value store known for its speed. It's commonly used for caching, real-time analytics, message brokering (e.g., with Celery), and storing sessions in web applications.
+
+Celery is an asynchronous task queue/job queue used to run time-consuming tasks in the background, such as sending emails or processing large data sets. It integrates well with Django, Flask, and FastAPI.
+
+Docker is a platform that enables developers to package applications with all their dependencies into containers. This ensures consistency across environments and simplifies deployment.
+
+Kubernetes is a container orchestration system used for automating the deployment, scaling, and management of containerized applications across clusters of machines.
+
+PostgreSQL is a powerful, open-source relational database system with advanced features like full-text search, JSON support, and custom data types. It is widely used with Django and other backends.
+
+OpenAI's GPT models Generative Pre-trained Transformers are designed to generate human-like text based on input prompts. These models are trained on a massive amount of data and can perform tasks like writing, summarization, question answering, and code generation.
+
+LangChain agents are dynamic LLM components that can decide which tools to use, what actions to take, and how to handle user queries. Agents are useful for applications that need reasoning, planning, or decision-making.
+
+ChromaDB is a modern open-source vector database optimized for use with LLMs. It provides APIs for indexing, querying, and managing vector embeddings efficiently and is often used in RAG workflows.
+
+Streamlit’s `st.session_state` enables persistence across user interactions, making it possible to build multi-step applications or chatbots with conversational memory.
+
+PyTorch is an open-source machine learning library developed by Facebook AI. It is known for its flexibility, dynamic computation graphs, and wide use in research and production ML models.
+
+Transformers are deep learning architectures primarily used in NLP and are the foundation for models like BERT, GPT, and T5. The Hugging Face Transformers library provides easy access to thousands of pre-trained models.
+
+The Hugging Face Hub is an open-source platform that hosts thousands of pre-trained models and datasets for tasks such as NLP, vision, and audio. Developers can upload, share, and integrate models easily into their applications.
+
+Pip is the Python package manager used to install and manage packages from the Python Package Index (PyPI). Requirements are often stored in a `requirements.txt` file for reproducibility.
+
+Virtual environments in Python using `venv` or `virtualenv` isolate dependencies for each project, ensuring clean and conflict-free environments.
+
+Environment variables are key-value pairs used to configure applications without hardcoding sensitive or environment-specific values. In Python, they can be accessed using `os.getenv()`.
+
+The `.env` file is a common convention to store environment variables locally. Libraries like `python-dotenv` can be used to load these variables into the environment automatically.
+
+Swagger and ReDoc are tools that auto-generate interactive API documentation from OpenAPI schemas. FastAPI includes them out of the box for testing and understanding API behavior.
+
